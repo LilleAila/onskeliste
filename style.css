@@ -65,11 +65,11 @@ tang img {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
+/*   html {
     background: black;
     filter: invert(1);
-  }
-/*   body {
+  } */
+  body {
     background-color: black;
   }
   ting {
@@ -79,7 +79,10 @@ tang img {
     background-color: white;
     border: 1px solid black;
     color: black;
-  } */
+  }
+  tang img {
+    filter: invert(1);
+  }
 }
 
 @media (prefers-color-scheme: light) {
