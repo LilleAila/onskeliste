@@ -91,3 +91,7 @@ tang img {
     color: black;
   }
 }
+
+img {
+  mix-blend-mode: multiply;
+}
