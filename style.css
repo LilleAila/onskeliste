@@ -63,3 +63,31 @@ tang img {
     grid-template-columns: 100%;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+  }
+  ting {
+    background-color: rgb(255, 180, 50);
+  }
+  tang {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+  ting {
+    background-color: rgb(50, 180, 255);
+  }
+  tang {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+}
