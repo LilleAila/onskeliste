@@ -80,9 +80,6 @@ tang img {
     border: 1px solid black;
     color: black;
   }
-/*   tang img {
-    filter: invert(1);
-  } */
 }
 
 @media (prefers-color-scheme: light) {
