@@ -56,6 +56,7 @@ tang img {
   max-height: 85%;
   height: auto;
   width: auto;
+  mix-blend-mode: darken;
 }
 
 @media only screen and (max-width: 426px){
@@ -90,8 +91,4 @@ tang img {
     border: 1px solid black;
     color: black;
   }
-}
-
-img {
-  mix-blend-mode: multiply;
 }
